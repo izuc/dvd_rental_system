@@ -1,0 +1,20 @@
+C:\Users\Lance\Documents\Visual Studio 2008\Projects\DVDEzy\DVDEzy\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lance\Documents\Visual Studio 2008\Projects\DVDEzy\DVDEzy\bin\DVDEzy.dll
+C:\Users\Lance\Documents\Visual Studio 2008\Projects\DVDEzy\DVDEzy\bin\DVDEzy.pdb
+C:\Users\Lance\Documents\Visual Studio 2008\Projects\DVDEzy\DVDEzy\obj\Debug\DVDEzy.dll
+C:\Users\Lance\Documents\Visual Studio 2008\Projects\DVDEzy\DVDEzy\obj\Debug\DVDEzy.pdb
+E:\New folder\DVDEzy\DVDEzy\bin\DVDEzy.dll
+E:\New folder\DVDEzy\DVDEzy\bin\DVDEzy.pdb
+E:\New folder\DVDEzy\DVDEzy\obj\Debug\ResolveAssemblyReference.cache
+E:\New folder\DVDEzy\DVDEzy\obj\Debug\DVDEzy.dll
+E:\New folder\DVDEzy\DVDEzy\obj\Debug\DVDEzy.pdb
+C:\Users\Lance\Desktop\DVDEzy\DVDEzy\DVDEzy\bin\DVDEzy.dll
+C:\Users\Lance\Desktop\DVDEzy\DVDEzy\DVDEzy\bin\DVDEzy.pdb
+C:\Users\Lance\Desktop\DVDEzy\DVDEzy\DVDEzy\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lance\Desktop\DVDEzy\DVDEzy\DVDEzy\obj\Debug\DVDEzy.dll
+C:\Users\Lance\Desktop\DVDEzy\DVDEzy\DVDEzy\obj\Debug\DVDEzy.pdb
+C:\Users\Lance\Desktop\c3128034_Assignment3\DVDEzy\DVDEzy\bin\DVDEzy.dll
+C:\Users\Lance\Desktop\c3128034_Assignment3\DVDEzy\DVDEzy\bin\DVDEzy.pdb
+C:\Users\Lance\Desktop\c3128034_Assignment3\DVDEzy\DVDEzy\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lance\Desktop\c3128034_Assignment3\DVDEzy\DVDEzy\obj\Debug\DVDEzy.dll
+C:\Users\Lance\Desktop\c3128034_Assignment3\DVDEzy\DVDEzy\obj\Debug\DVDEzy.pdb

@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DVDEzy.Master.cs" Inherits="DVDEzy.DVDEzy" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+    <head id="head" runat="server">
+        <title>DVDEzy</title>
+        <link type="text/css" href="jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.8.18.custom.min.js"></script>
+        <link type="text/css" href="styles.css" rel="stylesheet" />
+    </head>
+	<body>
+		<div id="main_container">
+			<div id="header">
+				<ul id="navigation">
+				    <%
+                    if (Session["login"] != null) { %>
+					    <li class="nav_spacer" style="width: 125px;"></li>
+					    <li id="button_members">
+						    <ul class="sub">
+							    <li><a href="members.aspx">View Members</a></li>
+							    <li><a href="add_member.aspx">Create New Member</a></li>
+						    </ul>
+					    </li>
+					    <li class="nav_spacer" style="width: 50px;"></li>
+					    <li id="button_transactions">
+						    <ul class="sub">
+							    <li><a href="transactions.aspx">View Transactions</a></li>
+							    <li><a href="add_transaction.aspx">Create New Transaction</a></li>
+						    </ul>
+					    </li>
+					    <li class="nav_spacer" style="width: 50px;"></li>
+					    <li id="button_dvds">
+						    <ul class="sub">
+							    <li><a href="dvds.aspx">View DVDs</a></li>
+							    <li><a href="add_dvd.aspx">Create New DVD</a></li>
+						    </ul>
+					    </li>
+					    <li class="nav_spacer" style="width: 125px;"></li>
+					<%
+					} %>
+				</ul>
+			</div>
+			<div id="body_container">
+				<div id="body_header">
+				    <% 
+                    if (Session["login"] != null) { %>
+                        <a href="login.aspx?logout=1" id="logout_button"></a>
+				    <%
+					} %>
+				</div>
+				<div id="body_repeat">
+					<div id="body_content">
+                        <form runat="server">
+                            <asp:contentplaceholder id="BodyContent" runat="server" />
+                        </form>
+					</div>
+				</div>
+				<div id="body_footer"></div>
+			</div>
+		</div>
+	</body>
+</html>
